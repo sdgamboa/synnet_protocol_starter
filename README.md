@@ -1,1 +1,1 @@
-# synnet_protocol_starter
+# SynNet Protocol Starter
