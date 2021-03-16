@@ -1,0 +1,305 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    INSPIRON5559 (AVX2, FMA3, 7 GB RAM)
+Command: iqtree2 --threads-max 3 -m TEST --mset WAG,LG,JTT -B 1000 -alrt 1000 -s TMBIM_proteins.trimmed.afa
+Seed:    879264 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Mar 14 15:10:30 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file TMBIM_proteins.trimmed.afa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 117 sequences with 188 columns, 188 distinct patterns
+182 parsimony-informative, 4 singleton sites, 2 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  al_16036121            0.00%    passed     99.68%
+   2  al_16049055            0.00%    passed     84.80%
+   3  al_16039165            0.00%    passed     98.27%
+   4  al_16054918            9.04%    passed     63.60%
+   5  al_16047927            3.72%    passed     94.12%
+   6  al_16045305            0.53%    passed     97.45%
+   7  al_16054537            0.00%    passed     98.40%
+   8  al_16043284            3.72%    passed     94.35%
+   9  at_AT3G63310           0.00%    passed     99.88%
+  10  at_AT5G47120           3.72%    passed     91.79%
+  11  at_AT4G14730           0.53%    passed     96.15%
+  12  at_AT4G02690           0.53%    passed     97.50%
+  13  at_AT4G15470           0.00%    passed     99.38%
+  14  at_AT4G17580           7.45%    passed     68.81%
+  15  at_AT1G03070           0.00%    passed     99.46%
+  16  bd_Bradi1g55650        0.53%    passed     99.97%
+  17  bd_Bradi1g55660        1.06%    passed     97.60%
+  18  bd_Bradi1g08870        0.00%    passed     99.30%
+  19  bd_Bradi1g05560        0.53%    passed     99.94%
+  20  bd_Bradi1g05570        1.06%    passed     54.60%
+  21  bd_Bradi3g02520        3.72%    passed      5.31%
+  22  bd_Bradi2g25870        0.00%    passed     89.68%
+  23  bd_Bradi4g15160        3.19%    passed     70.33%
+  24  bo_Bo2g132200          3.72%    passed     95.63%
+  25  bo_Bo1g057620          1.06%    passed     99.58%
+  26  bo_Bo7g103760          0.00%    passed     98.63%
+  27  bo_Bo8g040670          0.00%    passed     99.66%
+  28  bo_Bo4g097050          0.00%    passed     99.70%
+  29  bo_Bo9g069310          3.72%    passed     81.13%
+  30  bo_Bo2g100640          0.53%    passed     98.75%
+  31  br_Brara.B02945        3.72%    passed     92.25%
+  32  br_Brara.D00010        0.00%    passed     99.76%
+  33  br_Brara.I01977        3.72%    passed     86.26%
+  34  br_Brara.H00806        0.00%    passed     99.66%
+  35  br_Brara.B02623        0.53%    passed     98.75%
+  36  br_Brara.C04437        0.00%    passed     99.51%
+  37  br_Brara.A02046        1.06%    passed     99.58%
+  38  br_Brara.J00158        0.53%    passed     99.97%
+  39  ca_106480              0.53%    passed     95.33%
+  40  ca_75062               0.00%    passed     99.94%
+  41  ca_130549              0.00%    passed     93.89%
+  42  ca_84247               0.00%    passed     55.92%
+  43  ca_2278                2.13%    passed     97.28%
+  44  cb_Carubv10001524m     0.53%    passed     98.71%
+  45  cb_Carubv10018936m     0.00%    passed     98.94%
+  46  cb_Carubv10005406m     0.00%    passed     98.87%
+  47  cb_Carubv10011301m     0.00%    passed     99.28%
+  48  cb_Carubv10007653m     0.00%    passed     94.48%
+  49  cb_Carubv10028224m     2.66%    passed     88.69%
+  50  cb_Carubv10007660m     2.13%    passed     70.14%
+  51  cc_C.cajan_07647       0.00%    passed     70.04%
+  52  cc_C.cajan_13050      11.70%    passed     23.24%
+  53  cc_C.cajan_30364       0.00%    passed     97.60%
+  54  cc_C.cajan_13043       3.72%    passed     84.37%
+  55  cc_C.cajan_05266       0.00%    passed     70.05%
+  56  cc_C.cajan_27233       3.72%    passed     83.48%
+  57  cc_C.cajan_30806       0.53%    passed     95.94%
+  58  gm_Glyma.15G101400     0.00%    passed     80.62%
+  59  gm_Glyma.05G064700     3.72%    passed     85.09%
+  60  gm_Glyma.10G272600     0.00%    passed     41.41%
+  61  gm_Glyma.13G211300     0.00%    passed     68.29%
+  62  gm_Glyma.17G146500     2.13%    passed     93.16%
+  63  gm_Glyma.01G205200     3.72%    passed     86.33%
+  64  gm_Glyma.19G159300     0.00%    passed     89.01%
+  65  gm_Glyma.02G144700     0.00%    passed     99.55%
+  66  gm_Glyma.11G037700     3.72%    passed     90.13%
+  67  gm_Glyma.10G029400     0.00%    passed     99.50%
+  68  gm_Glyma.20G117300     0.00%    passed     79.60%
+  69  mt_Medtr5g013340       4.26%    passed     85.27%
+  70  mt_Medtr1g110390       0.00%    passed     87.16%
+  71  mt_Medtr7g095510       2.13%    passed     61.01%
+  72  mt_Medtr7g095530       1.60%    passed     13.38%
+  73  mt_Medtr7g095600       1.60%    passed     26.13%
+  74  mt_Medtr2g021130       0.00%    passed     93.87%
+  75  mt_Medtr1g071430       0.00%    passed     99.82%
+  76  mt_Medtr7g095640       0.53%    passed     92.46%
+  77  os_LOC_Os11g37200      1.60%    passed     81.71%
+  78  os_LOC_Os07g08060      2.13%    passed     92.78%
+  79  os_LOC_Os07g08070      0.53%    passed     99.84%
+  80  os_LOC_Os03g53400      0.00%    passed     91.17%
+  81  os_LOC_Os02g03280      3.72%    passed     30.18%
+  82  os_LOC_Os05g33360      1.06%    passed     94.39%
+  83  os_LOC_Os03g58140      1.06%    passed     94.67%
+  84  os_LOC_Os03g58150      0.53%    passed     99.93%
+  85  pv_Phvul.001G154500    0.00%    passed     84.07%
+  86  pv_Phvul.002G001400    3.72%    passed     92.64%
+  87  pv_Phvul.007G174500    0.00%    passed     99.48%
+  88  pv_Phvul.007G029100    0.00%    passed     24.98%
+  89  pv_Phvul.003G224400    2.66%    passed     48.29%
+  90  pv_Phvul.006G157400    0.00%    passed     93.21%
+  91  sb_Sobic.010G000300    0.53%    passed     58.65%
+  92  sb_Sobic.001G057800    0.00%    passed     99.60%
+  93  sb_Sobic.009G131100    0.00%    passed     88.65%
+  94  sb_Sobic.005G166100    1.60%    passed     74.40%
+  95  sb_Sobic.004G024200    3.72%    passed     32.21%
+  96  sb_Sobic.001G092600    0.00%    passed     99.99%
+  97  sb_Sobic.001G057900    0.53%    passed     81.62%
+  98  sb_Sobic.002G051700    0.53%    passed     99.83%
+  99  si_Si007155            0.53%    passed     56.96%
+ 100  si_Si030923            1.06%    passed     99.99%
+ 101  si_Si022983            0.00%    passed     83.95%
+ 102  si_Si026757            1.60%    passed     96.02%
+ 103  si_Si038585            0.00%    passed     75.13%
+ 104  si_Si018163            3.72%    passed     36.94%
+ 105  si_Si037166            0.00%    passed     99.91%
+ 106  si_Si037225            0.00%    passed     99.84%
+ 107  zm_GRMZM2G027726       3.72%    passed     37.61%
+ 108  zm_GRMZM2G163877       1.60%    passed     38.74%
+ 109  zm_GRMZM2G132568       0.53%    passed     99.79%
+ 110  zm_GRMZM2G479608       0.00%    passed     72.49%
+ 111  zm_GRMZM2G099449       0.00%    passed     97.69%
+ 112  zm_GRMZM2G029087       3.72%    passed     13.16%
+ 113  zm_GRMZM2G014672       0.00%    passed     99.93%
+ 114  zm_GRMZM2G095898       1.60%    passed     59.82%
+ 115  zm_GRMZM2G074404       0.00%    passed     99.57%
+ 116  zm_GRMZM2G074356       0.53%    passed     47.42%
+ 117  zm_GRMZM2G128617       0.00%    passed     99.22%
+****  TOTAL                  1.30%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: br_Brara.H00806 is identical to bo_Bo8g040670 but kept for subsequent analysis
+NOTE: br_Brara.B02623 is identical to bo_Bo2g100640 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.032 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -12553.291
+Optimal log-likelihood: -12553.012
+Proportion of invariable sites: 0.006
+Gamma shape alpha: 1.531
+Parameters optimization took 1 rounds (0.302 sec)
+Time for fast ML tree search: 1.658 seconds
+
+NOTE: ModelFinder requires 15 MB RAM!
+ModelFinder will test up to 24 protein models (sample size: 188) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  WAG           13009.265    231 26480.530    133664.530   27228.148
+  2  WAG+I         12991.144    232 26446.288    134558.288   27197.143
+  3  WAG+G4        12652.083    232 25768.166    133880.166   26519.020
+  4  WAG+I+G4      12651.092    233 25768.185    134812.185   26522.276
+  7  WAG+F+G4      12447.012    251 25396.024    151900.024   26208.371
+  8  WAG+F+I+G4    12445.809    252 25395.617    152907.617   26211.201
+ 11  LG+G4         12554.095    232 25572.189    133684.189   26323.044
+ 12  LG+I+G4       12553.066    233 25572.132    134616.132   26326.223
+ 15  LG+F+G4       12427.095    251 25356.190    151860.190   26168.537
+ 16  LG+F+I+G4     12426.103    252 25356.207    152868.207   26171.790
+ 19  JTT+G4        12617.655    232 25699.311    133811.311   26450.165
+ 20  JTT+I+G4      12616.469    233 25698.938    134742.938   26453.029
+ 23  JTT+F+G4      12428.522    251 25359.045    151863.045   26171.392
+ 24  JTT+F+I+G4    12427.417    252 25358.833    152870.833   26174.417
+Akaike Information Criterion:           LG+F+G4
+Corrected Akaike Information Criterion: WAG
+Bayesian Information Criterion:         LG+F+G4
+Best-fit model: LG+F+G4 chosen according to BIC
+
+All model information printed to TMBIM_proteins.trimmed.afa.model.gz
+CPU time for ModelFinder: 8.797 seconds (0h:0m:8s)
+Wall-clock time for ModelFinder: 8.844 seconds (0h:0m:8s)
+Generating 1000 samples for ultrafast bootstrap (seed: 879264)...
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -12427.095
+Optimal log-likelihood: -12427.086
+Gamma shape alpha: 1.279
+Parameters optimization took 1 rounds (0.150 sec)
+Computing ML distances based on estimated model parameters... 2.032 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.009 seconds
+Log-likelihood of BIONJ tree: -12684.560
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.836 second
+Computing log-likelihood of 98 initial trees ... 5.019 seconds
+Current best score: -12427.086
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -12422.943
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -12421.448
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -12419.891
+Iteration 10 / LogL: -12421.577 / Time: 0h:0m:22s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -12419.152
+UPDATE BEST LOG-LIKELIHOOD: -12419.151
+Iteration 20 / LogL: -12420.872 / Time: 0h:0m:34s
+Finish initializing candidate tree set (12)
+Current best tree score: -12419.151 / CPU time: 31.390
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -12414.939
+Iteration 30 / LogL: -12500.476 / Time: 0h:0m:47s (0h:2m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -12407.041
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -12403.721
+Iteration 40 / LogL: -12434.588 / Time: 0h:1m:0s (0h:2m:27s left)
+Iteration 50 / LogL: -12409.674 / Time: 0h:1m:13s (0h:2m:7s left)
+Log-likelihood cutoff on original alignment: -12456.158
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -12402.202
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -12397.111
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -12394.428
+Iteration 60 / LogL: -12422.776 / Time: 0h:1m:28s (0h:2m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -12394.004
+Iteration 70 / LogL: -12439.098 / Time: 0h:1m:42s (0h:2m:18s left)
+Iteration 80 / LogL: -12400.680 / Time: 0h:1m:58s (0h:2m:3s left)
+Iteration 90 / LogL: -12396.088 / Time: 0h:2m:11s (0h:1m:47s left)
+Iteration 100 / LogL: -12394.704 / Time: 0h:2m:25s (0h:1m:32s left)
+Log-likelihood cutoff on original alignment: -12455.157
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.946
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -12393.742
+Iteration 110 / LogL: -12394.606 / Time: 0h:2m:40s (0h:2m:25s left)
+UPDATE BEST LOG-LIKELIHOOD: -12393.739
+Iteration 120 / LogL: -12400.480 / Time: 0h:2m:54s (0h:2m:10s left)
+Iteration 130 / LogL: -12396.871 / Time: 0h:3m:8s (0h:1m:55s left)
+Iteration 140 / LogL: -12419.331 / Time: 0h:3m:23s (0h:1m:41s left)
+BETTER TREE FOUND at iteration 144: -12393.739
+Iteration 150 / LogL: -12394.051 / Time: 0h:3m:37s (0h:2m:17s left)
+Log-likelihood cutoff on original alignment: -12455.328
+Iteration 160 / LogL: -12398.181 / Time: 0h:3m:51s (0h:2m:2s left)
+Iteration 170 / LogL: -12394.006 / Time: 0h:4m:6s (0h:1m:47s left)
+Iteration 180 / LogL: -12424.291 / Time: 0h:4m:21s (0h:1m:33s left)
+Iteration 190 / LogL: -12401.076 / Time: 0h:4m:35s (0h:1m:18s left)
+Iteration 200 / LogL: -12394.006 / Time: 0h:4m:48s (0h:1m:3s left)
+Log-likelihood cutoff on original alignment: -12451.109
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 210 / LogL: -12409.314 / Time: 0h:5m:3s (0h:2m:10s left)
+Iteration 220 / LogL: -12435.733 / Time: 0h:5m:18s (0h:1m:56s left)
+Iteration 230 / LogL: -12395.178 / Time: 0h:5m:33s (0h:1m:41s left)
+Iteration 240 / LogL: -12394.682 / Time: 0h:5m:48s (0h:1m:27s left)
+TREE SEARCH COMPLETED AFTER 245 ITERATIONS / Time: 0h:5m:55s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -12393.739
+Optimal log-likelihood: -12393.739
+Gamma shape alpha: 1.248
+Parameters optimization took 1 rounds (0.164 sec)
+BEST SCORE FOUND : -12393.739
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.566 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file TMBIM_proteins.trimmed.afa.splits.nex
+Total tree length: 23.908
+
+Total number of iterations: 245
+CPU time used for tree search: 352.962 sec (0h:5m:52s)
+Wall-clock time used for tree search: 353.082 sec (0h:5m:53s)
+Total CPU time used: 356.652 sec (0h:5m:56s)
+Total wall-clock time used: 356.772 sec (0h:5m:56s)
+
+Computing bootstrap consensus tree...
+Reading input file TMBIM_proteins.trimmed.afa.splits.nex...
+117 taxa and 558 splits.
+Consensus tree written to TMBIM_proteins.trimmed.afa.contree
+Reading input trees file TMBIM_proteins.trimmed.afa.contree
+Log-likelihood of consensus tree: -12393.747
+
+Analysis results written to: 
+  IQ-TREE report:                TMBIM_proteins.trimmed.afa.iqtree
+  Maximum-likelihood tree:       TMBIM_proteins.trimmed.afa.treefile
+  Likelihood distances:          TMBIM_proteins.trimmed.afa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          TMBIM_proteins.trimmed.afa.splits.nex
+  Consensus tree:                TMBIM_proteins.trimmed.afa.contree
+  Screen log file:               TMBIM_proteins.trimmed.afa.log
+
+Date and Time: Sun Mar 14 15:16:37 2021

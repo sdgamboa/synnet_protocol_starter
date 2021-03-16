@@ -1,0 +1,16 @@
+abbreviation	species	family	color	taxid
+mt	Medicago truncatula	Fabaceae	#C83737	3880
+gm	Glycine max	Fabaceae	#C83737	3847
+pv	Phaseolus vulgaris	Fabaceae	#C83737	3885
+ca	Cicer arietinum	Fabaceae	#C83737	3827
+cc	Cajanus cajan	Fabaceae	#C83737	3821
+zm	Zea mays	Poaceae	#D4AA00	4577
+os	Oryza sativa	Poaceae	#D4AA00	4530
+bd	Brachypodium distachyon	Poaceae	#D4AA00	15368
+sb	Sorghum bicolor	Poaceae	#D4AA00	4558
+si	Setaria italica	Poaceae	#D4AA00	4555
+at	Arabidopsis thaliana	Brassicaceae	#0066FF	3702
+br	Brassica rapa	Brassicaceae	#2CA02C	3711
+cb	Capsella rubella	Brassicaceae	#2CA02C	81985
+bo	Brassica oleracea	Brassicaceae	#2CA02C	3712
+al	Arabidopsis lyrata	Brassicaceae	#2CA02C	59689

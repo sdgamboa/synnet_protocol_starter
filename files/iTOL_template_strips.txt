@@ -1,0 +1,191 @@
+DATASET_COLORSTRIP
+#In colored strip datasets, each ID is associated to a color box/strip and can have an optional label. Color can be specified in hexadecimal, RGB or RGBA notation. When using RGB or RGBA notation, you cannot use COMMA as the dataset separator
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+
+SEPARATOR TAB
+#SEPARATOR COMMA
+#SEPARATOR SPACE
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Strips
+
+#dataset color (can be changed later)
+COLOR	#ff0000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#If COLOR_BRANCHES is set to 1, branches of the tree will be colored according to the colors of the strips above the leaves.
+#When all children of a node have the same color, it will be colored the same, ie. the color will propagate inwards towards the root.
+COLOR_BRANCHES	0
+
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 6:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE	Dataset_legend
+#LEGEND_SHAPES	1 1 2 2
+#LEGEND_COLORS	#ff0000 #00ff00 rgba(0,255,0,0.5) #0000ff
+#LEGEND_LABELS	value1 value2 value3 value4
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#width of the colored strip
+STRIP_WIDTH	50
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN 0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the color strip 
+#BORDER_WIDTH 0
+
+#border color; used when BORDER_WIDTH is above 0
+#BORDER_COLOR #0000ff
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL 0
+
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+
+at_AT4G17580	#b22222
+al_16054918	#b22222
+al_16047927	#b22222
+gm_Glyma.05G064700	#b22222
+pv_Phvul.003G224400	#b22222
+gm_Glyma.17G146500	#b22222
+cc_C.cajan_27233	#b22222
+mt_Medtr5g013340	#b22222
+ca_2278	#b22222
+pv_Phvul.002G001400	#b22222
+cc_C.cajan_13043	#b22222
+cc_C.cajan_13050	#b22222
+gm_Glyma.11G037700	#b22222
+gm_Glyma.01G205200	#b22222
+at_AT5G47120	#b22222
+al_16043284	#b22222
+br_Brara.B02945	#b22222
+bo_Bo2g132200	#b22222
+br_Brara.I01977	#b22222
+bo_Bo9g069310	#b22222
+cb_Carubv10028224m	#b22222
+cb_Carubv10007660m	#b22222
+sb_Sobic.004G024200	#b22222
+zm_GRMZM2G027726	#b22222
+zm_GRMZM2G029087	#b22222
+si_Si018163	#b22222
+os_LOC_Os02g03280	#b22222
+bd_Bradi3g02520	#b22222
+si_Si007155	#b22222
+zm_GRMZM2G163877	#b22222
+sb_Sobic.010G000300	#b22222
+si_Si022983	#1e90ff
+sb_Sobic.009G131100	#1e90ff
+zm_GRMZM2G479608	#1e90ff
+os_LOC_Os05g33360	#1e90ff
+bd_Bradi2g25870	#1e90ff
+mt_Medtr2g021130	#1e90ff
+ca_130549	#1e90ff
+cc_C.cajan_05266	#1e90ff
+pv_Phvul.006G157400	#1e90ff
+gm_Glyma.13G211300	#1e90ff
+gm_Glyma.15G101400	#1e90ff
+al_16039165	#1e90ff
+cb_Carubv10005406m	#1e90ff
+at_AT4G15470	#1e90ff
+bo_Bo7g103760	#1e90ff
+br_Brara.C04437	#1e90ff
+br_Brara.H00806	#1e90ff
+bo_Bo8g040670	#1e90ff
+mt_Medtr1g110390	#1e90ff
+ca_84247	#1e90ff
+cc_C.cajan_07647	#1e90ff
+pv_Phvul.007G029100	#1e90ff
+gm_Glyma.20G117300	#1e90ff
+gm_Glyma.10G272600	#1e90ff
+br_Brara.A02046	#1e90ff
+bo_Bo1g057620	#1e90ff
+cb_Carubv10007653m	#1e90ff
+at_AT4G14730	#1e90ff
+al_16049055	#1e90ff
+zm_GRMZM2G095898	#1e90ff
+sb_Sobic.005G166100	#1e90ff
+si_Si026757	#1e90ff
+os_LOC_Os11g37200	#1e90ff
+bd_Bradi4g15160	#1e90ff
+os_LOC_Os03g58140	#1e90ff
+bd_Bradi1g05570	#1e90ff
+os_LOC_Os07g08060	#1e90ff
+bd_Bradi1g55660	#1e90ff
+si_Si038585	#1e90ff
+zm_GRMZM2G074356	#1e90ff
+sb_Sobic.001G057900	#1e90ff
+os_LOC_Os03g53400	#1e90ff
+bd_Bradi1g08870	#1e90ff
+zm_GRMZM2G128617	#1e90ff
+zm_GRMZM2G014672	#1e90ff
+si_Si037166	#1e90ff
+sb_Sobic.001G092600	#1e90ff
+bd_Bradi1g55650	#1e90ff
+os_LOC_Os07g08070	#1e90ff
+si_Si030923	#1e90ff
+zm_GRMZM2G132568	#1e90ff
+sb_Sobic.002G051700	#1e90ff
+os_LOC_Os03g58150	#1e90ff
+bd_Bradi1g05560	#1e90ff
+si_Si037225	#1e90ff
+zm_GRMZM2G099449	#1e90ff
+zm_GRMZM2G074404	#1e90ff
+sb_Sobic.001G057800	#1e90ff
+at_AT3G63310	#1e90ff
+al_16036121	#1e90ff
+cb_Carubv10018936m	#1e90ff
+br_Brara.D00010	#1e90ff
+bo_Bo4g097050	#1e90ff
+br_Brara.J00158	#1e90ff
+cb_Carubv10011301m	#1e90ff
+at_AT1G03070	#1e90ff
+al_16054537	#1e90ff
+br_Brara.B02623	#1e90ff
+bo_Bo2g100640	#1e90ff
+cb_Carubv10001524m	#1e90ff
+at_AT4G02690	#1e90ff
+al_16045305	#1e90ff
+mt_Medtr1g071430	#1e90ff
+ca_75062	#1e90ff
+pv_Phvul.007G174500	#1e90ff
+cc_C.cajan_30364	#1e90ff
+gm_Glyma.10G029400	#1e90ff
+gm_Glyma.02G144700	#1e90ff
+gm_Glyma.19G159300	#1e90ff
+mt_Medtr7g095600	#1e90ff
+pv_Phvul.001G154500	#1e90ff
+cc_C.cajan_30806	#1e90ff
+ca_106480	#1e90ff
+mt_Medtr7g095640	#1e90ff
+mt_Medtr7g095530	#1e90ff
+mt_Medtr7g095510	#1e90ff
+
+
+

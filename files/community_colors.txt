@@ -1,0 +1,6 @@
+community0 	#00af87
+community1 	#ff5d85
+community2 	#CC66FF
+community3 	#fa9200
+community4 	#00c7ff
+community5 	#69c404
