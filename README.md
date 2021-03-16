@@ -18,9 +18,5 @@ Then, you must go to the `db` directory and decompress the data set files:
     cd $db
     tar -xvzf synnet_dataset.tar.gz
 
-Now go to the `analyses` directory:
-
-    cd $wdir/analyses
-
 Now you're ready to start working with this example working directory for the 
 construction of a SynNet.
