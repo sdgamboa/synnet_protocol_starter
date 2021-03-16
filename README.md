@@ -4,10 +4,9 @@
 
 ## Download
 
-You can download the contents of this repository by executing:
+You can get a copy of this repository with:
 
-    wget https://github.com/sdgamboa/synnet_protocol_starter/archive/main.zip
-    unzip main.zip
+    git clone git@github.com:sdgamboa/synnet_protocol_starter.git
     cd synnet_protocol_starter-main
 
 Before using this protocol, you must source the `set_profile.sh` file:
