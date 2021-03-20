@@ -15,7 +15,7 @@ Print help:
 
 Print usage:
 
-    extract_subnetwork
+    extract_subnetwork.sh
     
 ### [get_node_table_clusters.sh](./get_node_table_clusters.sh)
 
