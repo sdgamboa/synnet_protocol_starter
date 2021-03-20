@@ -25,7 +25,7 @@ construction of a SynNet.
 
 | File/Directory | Description |
 | :------------: | ----------- |
-| analyses | Directory where most analyses will take place following the protocol instructions. |
+| [analyses](./analyses) | Directory where most analyses will take place following the protocol instructions. |
 | db | Directory where sample data sets and the SynNet are stored. |
 | files | Files that are helpful to complete this protocol (homology searches, list of ids, phylogeny, etc). |
 | scripts | Script files written in bash or R. |
