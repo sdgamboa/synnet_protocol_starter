@@ -1,6 +1,6 @@
 ## Scripts
 
-### build_synnet
+### [build_synnet.sh](./build_synnet.sh)
 
 
 Print usage:
