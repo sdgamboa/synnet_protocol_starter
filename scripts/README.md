@@ -28,6 +28,10 @@ Print usage:
 
 ### get_node_table.sh
 
+Print usage:
+
+    get_node_table.sh
+
 print usage:
 
     get_node_table.sh
