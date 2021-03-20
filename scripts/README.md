@@ -29,10 +29,6 @@ Print usage:
 
     get_node_table.sh
 
-print usage:
-
-    get_node_table.sh
-
 ### [phylogenetic_profiling.R](./phylogenetic_profiling.R)
 
 R script used to create a phylogenetic profiling figure. Instructions about how to use it come in the book chapter.
