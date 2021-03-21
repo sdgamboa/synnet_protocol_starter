@@ -35,8 +35,8 @@ p <- ggtree(my_tree, branch.length= "none") +
 
 
 pdf(file = "Figure_6.pdf")
-gheatmap(p, counts_data, offset=0.5, width=0.5, font.size=3, 
-         colnames_angle=45, hjust=1) + 
+gheatmap(p, counts_data, offset = 0.5, width = 0.5, font.size = 3, 
+         colnames_angle = 45, hjust = 1) + 
     scale_fill_gradient(na.value = "gray85") +
     theme(axis.text = element_text(size = 8,face = "bold"),
           legend.position = "bottom") +
