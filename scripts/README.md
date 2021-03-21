@@ -2,7 +2,7 @@
 
 ### [build_synnet.sh](./build_synnet.sh)
 
-This script creates a SynNet takin as inputs FASTA and BED files.
+This script creates a SynNet taking as inputs FASTA and BED files.
 
 Print usage:
 
