@@ -6,7 +6,7 @@ Ths folder contains additional files related to generic homology search and phyl
 Contents:
 
 [Files description](#files-description)  
-[Pipeline](#Homology-search-and-phylogenetic-inference)
+[Homology search and phylogenetic inference](#Homology-search-and-phylogenetic-inference)
 
 
 ### Files description
