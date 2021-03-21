@@ -25,8 +25,8 @@ Contents:
 | [iTOL_template_connections.txt](./iTOL_template_connections.txt) | iTOL template for communities. |
 | [iTOL_template_labels.txt](./iTOL_template_labels.txt) | iTOL template for label colors. |
 | [iTOL_template_strips.txt](./iTOL_template_strips.txt) | iTOL template for strop colors. |
-| [nodes_metadata.csv](./nodes_metadata.csv) | Metadata for the 117 TMBIM proteins used as example for this study. |
-| [species_metadata.csv](./species_metadata.csv) | Metadata for the 15 plant species. |
+| [nodes_metadata.csv](./nodes_metadata.csv) | Metadata of the 117 TMBIM proteins used as example for this study. |
+| [species_metadata.csv](./species_metadata.csv) | Metadata of the 15 plant species. |
 | [species_tree.newick](./species_tree.newick) | Species tree used for phylogenetic profiling. The tree was generated with [ete3](http://etetoolkit.org) and furhter modified in iTOL. |
 
 
