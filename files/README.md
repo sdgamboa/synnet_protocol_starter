@@ -26,9 +26,11 @@ For protein alignment and trimming, the hmmalign command of hmmer3 and the [trim
     hmmalign --trim --outformat afa Bax1-I.hmm TMBIM_proteins.fasta | sed -e '/>/!s/\./-/g' > TMBIM_proteins.afa
     trimal -in TMBIM_proteins.afa -out TMBIM_proteins.trimmed.afa -gt 0.8
 
-Phylogeneti inference were done with [iqtree2](https://github.com/iqtree/iqtree2):
+Phylogenetic inference was done with [iqtree2](https://github.com/iqtree/iqtree2):
 
 	iqtree2 --threads-max 3 -m TEST --mset WAG,LG,JTT -B 1000 -alrt 1000 -s TMBIM_proteins.trimmed.afa
+
+Outputs from iqtree2 are TMBIM_proteins.trimmed.afa.\*. The TMBIM_proteins.trimmed.treefile was used to visualize the tree in [iTOL](https://itol.embl.de) in the protocol of the book chapter.
 
 
 
