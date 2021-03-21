@@ -11,6 +11,24 @@ Contents:
 
 ### Files description
 
+| Files | Description |
+| ----- | ----------- |
+| [Bax1-I.hmm](./Bax1-I.hmm) | |
+| [Bax1-I_cutga_c0.8.tar.gz](./Bax1-I_cutga_c0.8.tar.gz) | |
+| [TMBIM_proteins.afa](./TMBIM_proteins.afa) | |
+| [TMBIM_proteins.fasta](./TMBIM_proteins.fasta) | |
+| [TMBIM_proteins.trimmed.afa](./TMBIM_proteins.trimmed.afa) | |
+| TMBIM_proteins.trimmed.afa.* | |
+| [community_colors.txt](./community_colors.txt) | |
+| [create_table.R](./create_table.R) | |
+| [iTOL.xlsx](./iTOL.xlsx) | |
+| [iTOL_template_connections.txt](./iTOL_template_connections.txt) | |
+| [iTOL_template_labels.txt](./iTOL_template_labels.txt) | |
+| [iTOL_template_strips.txt](./iTOL_template_strips.txt) | |
+| [nodes_metadata.csv](./nodes_metadata.csv) | |
+| [species_metadata.csv](./species_metadata.csv) | |
+| [species_tree.newick](./species_tree.newick) | |
+
 
 
 ### Homology search and phylogenetic inference
@@ -30,7 +48,7 @@ Phylogenetic inference was done with [iqtree2](https://github.com/iqtree/iqtree2
 
 	iqtree2 --threads-max 3 -m TEST --mset WAG,LG,JTT -B 1000 -alrt 1000 -s TMBIM_proteins.trimmed.afa
 
-Outputs from iqtree2 are TMBIM_proteins.trimmed.afa.\*. The TMBIM_proteins.trimmed.treefile was used to visualize the tree in [iTOL](https://itol.embl.de) in the protocol of the book chapter.
+Outputs from iqtree2 are TMBIM_proteins.trimmed.afa.\*. The (TMBIM_proteins.trimmed.treefile)[./TMBIM_proteins.trimmed.treefile] was used to visualize the tree in [iTOL](https://itol.embl.de) in the protocol of the book chapter.
 
 
 
