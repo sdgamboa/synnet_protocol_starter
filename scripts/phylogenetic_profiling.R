@@ -13,7 +13,7 @@ counts_data <- as.data.frame(df[,-1])
 rownames(counts_data) <- sp_names
 
 
-p <- ggtree(my_tree, branch.length= "none") + 
+p <- ggtree(my_tree, branch.length = "none") + 
     geom_tiplab(as_ylab = TRUE) +
     geom_cladelabel(node=MRCA(my_tree,
                               c("Glycine_max","Medicago_truncatula")),
