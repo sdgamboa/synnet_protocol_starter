@@ -9,12 +9,11 @@ Contents:
 [Pipeline](#pipeline)
 
 
-### Files description {#files}
+### Files description
 
 
 
-
-### Pipeline {#pipeline}
+### Pipeline
 
 
 Protein alignment and trimming:
