@@ -1,7 +1,7 @@
 
 ## Supplementary files
 
-Ths folder contains additional files related to generic homology search and phylogenetic inference analyses, which are out of the scope of the book chapter. It is exepected that the user would apply it's own pipeline according to its needs. This folder also contains metadata files and templates for iTOL. Below, there is a description of how some of the data was obtain.
+Ths folder contains additional files related to generic homology search and phylogenetic inference analyses, which are out of the scope of the book chapter. It is exepected that the user would apply it's own pipeline according to its needs. This folder also contains metadata files and templates for iTOL.
 
 Contents:
 
@@ -13,21 +13,21 @@ Contents:
 
 | Files | Description |
 | ----- | ----------- |
-| [Bax1-I.hmm](./Bax1-I.hmm) | |
-| [Bax1-I_cutga_c0.8.tar.gz](./Bax1-I_cutga_c0.8.tar.gz) | |
-| [TMBIM_proteins.afa](./TMBIM_proteins.afa) | |
-| [TMBIM_proteins.fasta](./TMBIM_proteins.fasta) | |
-| [TMBIM_proteins.trimmed.afa](./TMBIM_proteins.trimmed.afa) | |
-| TMBIM_proteins.trimmed.afa.* | |
-| [community_colors.txt](./community_colors.txt) | |
-| [create_table.R](./create_table.R) | |
-| [iTOL.xlsx](./iTOL.xlsx) | |
-| [iTOL_template_connections.txt](./iTOL_template_connections.txt) | |
-| [iTOL_template_labels.txt](./iTOL_template_labels.txt) | |
-| [iTOL_template_strips.txt](./iTOL_template_strips.txt) | |
-| [nodes_metadata.csv](./nodes_metadata.csv) | |
-| [species_metadata.csv](./species_metadata.csv) | |
-| [species_tree.newick](./species_tree.newick) | |
+| [Bax1-I.hmm](./Bax1-I.hmm) | hmm profile used to identify TMBIM proteins. The profile was obtained from [Pfam](http://pfam.xfam.org). |
+| [Bax1-I_cutga_c0.8.tar.gz](./Bax1-I_cutga_c0.8.tar.gz) | Compressed output from executing the [hmm_retrieve.sh script](https://github.com/sdgamboa/bash_scripts/blob/master/hmm_retrieve.sh). |
+| [TMBIM_proteins.afa](./TMBIM_proteins.afa) | All 117 proteins in FASTA format used as example for the book chapter. |
+| [TMBIM_proteins.fasta](./TMBIM_proteins.fasta) | Alignment of all 117 proteins in FASTA format used as example for the book chapter. |
+| [TMBIM_proteins.trimmed.afa](./TMBIM_proteins.trimmed.afa) | Trimmed alignment of all 117 proteins in FASTA format used as example for the book chapter.  |
+| TMBIM_proteins.trimmed.afa.* | Output files from iqtree2. The [TMBIM_proteins.trimmed.treefile](./TMBIM_proteins.trimmed.afa.treefile) file was used to visualize the SynNet communities in iTOL. |
+| [community_colors.txt](./community_colors.txt) | Contains color hex codes for the communities. |
+| [create_table.R](./create_table.R) | Script used to create the nodes_metadata.csv file. |
+| [iTOL.xlsx](./iTOL.xlsx) | Excel file containing the information for the iTOL templates. |
+| [iTOL_template_connections.txt](./iTOL_template_connections.txt) | iTOL template for communities. |
+| [iTOL_template_labels.txt](./iTOL_template_labels.txt) | iTOL template for label colors. |
+| [iTOL_template_strips.txt](./iTOL_template_strips.txt) | iTOL template for strop colors. |
+| [nodes_metadata.csv](./nodes_metadata.csv) | Metadata for the 117 TMBIM proteins used as example for this study. |
+| [species_metadata.csv](./species_metadata.csv) | Metadata for the 15 plant species. |
+| [species_tree.newick](./species_tree.newick) | Species tree used for phylogenetic profiling. The tree was generated with [ete3](http://etetoolkit.org) and furhter modified in iTOL|
 
 
 
