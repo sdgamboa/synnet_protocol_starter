@@ -1,6 +1,9 @@
 
+## Supplementary files
 
-Ths folder contains additional files regarding metadata and specific protein sequences.
+Ths folder contains additional files related to generic homology search and phylogenetic inference analyses, which are out of the scope of the book chapter. It is exepected that the user would apply it's own pipeline according to its needs. This folder also contains metadata files and templates for iTOL. Below, there is a description of how some of the data was obtain.
+
+
 
 
 Protein alignment and trimming:
