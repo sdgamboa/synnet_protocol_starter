@@ -5,7 +5,7 @@ Ths folder contains additional files related to generic homology search and phyl
 
 Contents:
 
-[Files description](#files)
+[Files description](#files)  
 [Pipeline](#pipeline)
 
 
