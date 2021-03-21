@@ -29,4 +29,4 @@ construction of a SynNet.
 | [db](./db) | Directory where sample data sets and the SynNet are stored. |
 | [files](./files) | Files that are helpful to complete this protocol (homology searches, list of ids, phylogeny, etc). |
 | [scripts](./scripts) | Script files written in bash or R. |
-| set_profile.sh | File to be sourced before starting the steps of the protocol. |
+| [set_profile.sh](./set_profile.sh) | File to be sourced before starting the steps of the protocol. |
