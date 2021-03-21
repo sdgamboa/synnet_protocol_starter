@@ -29,7 +29,7 @@ These scripts have the same functionality, they create a metadata table for node
 Print usage:
 
     ./get_node_table.sh
-    ./get_npde_table_clusters.sh
+    ./get_node_table_clusters.sh
  
  
 ### [phylogenetic_profiling.R](./phylogenetic_profiling.R)
