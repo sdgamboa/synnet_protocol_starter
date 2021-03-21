@@ -15,11 +15,15 @@ Contents:
 
 ### Pipeline
 
+Homology searches were performed with [HMMER3](http://hmmer.org) implemented in the [hmm_retrieve.sh](https://github.com/sdgamboa/bash_scripts/blob/master/hmm_retrieve.sh) script and using the (Bax1-I.hmm(PF01027))[./Bax1-I.hmm] obtained from [Pfam](http://pfam.xfam.org). The command call was:
+
+    hmm_retrieve.sh -g -c 0.8 -p Bax1-I.hmm full/path/to/synnet_protocol_starter/db/*pep
+
 
 Protein alignment and trimming:
 
-	hmmalign --trim --outformat afa Bax1-I.hmm TMBIM_proteins.fasta | sed -e '/>/!s/\./-/g' > TMBIM_proteins.afa
-	trimal -in TMBIM_proteins.afa -out TMBIM_proteins.trimmed.afa -gt 0.8
+    hmmalign --trim --outformat afa Bax1-I.hmm TMBIM_proteins.fasta | sed -e '/>/!s/\./-/g' > TMBIM_proteins.afa
+    trimal -in TMBIM_proteins.afa -out TMBIM_proteins.trimmed.afa -gt 0.8
 
 Phylogenetic inference:
 
