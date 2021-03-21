@@ -227,15 +227,3 @@ awk '{print $1"\t"$5"\t"$2"\t"$3"\t"$6}' tmp3 > SynNet_k"$HITS"s"$ANCHORS"m"$GAP
 rm tmp*
 
 echo -e "\nJob done! $(date)\n"
-
-
-
-
-
-
-
-
-
-
-
-
