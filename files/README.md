@@ -15,8 +15,8 @@ Contents:
 | ----- | ----------- |
 | [Bax1-I.hmm](./Bax1-I.hmm) | hmm profile used to identify TMBIM proteins. The profile was obtained from [Pfam](http://pfam.xfam.org). |
 | [Bax1-I_cutga_c0.8.tar.gz](./Bax1-I_cutga_c0.8.tar.gz) | Compressed output from executing the [hmm_retrieve.sh script](https://github.com/sdgamboa/bash_scripts/blob/master/hmm_retrieve.sh). |
-| [TMBIM_proteins.afa](./TMBIM_proteins.afa) | All 117 proteins in FASTA format used as example for the book chapter. |
-| [TMBIM_proteins.fasta](./TMBIM_proteins.fasta) | Alignment of all 117 proteins in FASTA format used as example for the book chapter. |
+| [TMBIM_proteins.fasta](./TMBIM_proteins.fasta) | All 117 proteins in FASTA format used as example for the book chapter. |
+| [TMBIM_proteins.afa](./TMBIM_proteins.afa) | Alignment of all 117 proteins in FASTA format used as example for the book chapter. |
 | [TMBIM_proteins.trimmed.afa](./TMBIM_proteins.trimmed.afa) | Trimmed alignment of all 117 proteins in FASTA format used as example for the book chapter.  |
 | TMBIM_proteins.trimmed.afa.* | Output files from iqtree2. The [TMBIM_proteins.trimmed.treefile](./TMBIM_proteins.trimmed.afa.treefile) file was used to visualize the SynNet communities in iTOL. |
 | [community_colors.txt](./community_colors.txt) | Contains color hex codes for the communities. |
