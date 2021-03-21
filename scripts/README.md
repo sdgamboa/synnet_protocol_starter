@@ -24,7 +24,7 @@ Print usage:
 
 ### [get_node_table.sh](./get_node_table.sh) and [get_node_table_clusters.sh](./get_node_table_clusters.sh)
 
-These scripts have the same functionality, they create a metadata table for nodes taking as inputs a SynNet (`get_node_table.sh`) or community (`get_node_table_clusters.sh`) file and a [metadata table](../files/nodes_metadata.csv). The only differece is the fields where the scripts look for the network edges (columns 3 and 4 for `get_node_table.sh`, and columns 1 and 2 for `get_node_table.clusters.sh`).
+These scripts have the same functionality, they create a metadata table for nodes taking as inputs a SynNet (`get_node_table.sh`) or community (`get_node_table_clusters.sh`) file and a [metadata table](../files/nodes_metadata.csv). The only difference is the fields where the scripts look for the network edges (columns 3 and 4 for `get_node_table.sh`, and columns 1 and 2 for `get_node_table.clusters.sh`).
 
 Print usage:
 
