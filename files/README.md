@@ -15,7 +15,7 @@ Contents:
 
 ### Pipeline
 
-Homology searches were performed with [HMMER3](http://hmmer.org) implemented in the [hmm_retrieve.sh](https://github.com/sdgamboa/bash_scripts/blob/master/hmm_retrieve.sh) script and using the (Bax1-I.hmm(PF01027))[./Bax1-I.hmm] obtained from [Pfam](http://pfam.xfam.org). The command call was:
+Homology searches were performed with [HMMER3](http://hmmer.org) implemented in the [hmm_retrieve.sh](https://github.com/sdgamboa/bash_scripts/blob/master/hmm_retrieve.sh) script and using the (Bax1-I.hmm\(PF01027\))[./Bax1-I.hmm] obtained from [Pfam](http://pfam.xfam.org). The command call was:
 
     hmm_retrieve.sh -g -c 0.8 -p Bax1-I.hmm full/path/to/synnet_protocol_starter/db/*pep
 
