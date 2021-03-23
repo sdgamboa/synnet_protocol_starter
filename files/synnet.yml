@@ -1,4 +1,3 @@
-OUTPUT
 name: SYNNET
 channels:
  - bioconda
