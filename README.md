@@ -6,7 +6,7 @@
 
 You can get a copy of this repository with:
 
-    git clone git@github.com:sdgamboa/synnet_protocol_starter.git
+    git clone https://github.com/sdgamboa/synnet_protocol_starter.git
     
 Before using this protocol, you must source the `set_profile.sh` file:
 
