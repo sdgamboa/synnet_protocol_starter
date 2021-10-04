@@ -132,7 +132,7 @@ mkdir ../DiamondDB
 
 for i in ${species_list[@]}
 do
-    echo -e "\tCreating Diamond database for $i...\n"
+    echo -e "[$(date +%H"h"%M"m"%S"s")]\tCreating Diamond database for $i...\n"
     diamond makedb --quiet --in ../$i.pep -d ../DiamondDB/$i -p $CPUS
 done
 
@@ -167,7 +167,7 @@ do
 			(
 			mv "$sp1"_"$sp2" $sp1.blast
 			cat ../$sp1.bed > $sp1.gff
-			echo -e "\tDetecting synteny for $sp1...\n"
+			echo -e "[$(date +%H"h"%M"m"%S"s")]\tDetecting synteny for $sp1...\n"
 			MCScanX $sp1 -s $ANCHORS -m $GAPS > /dev/null 2>&1
 			duplicate_gene_classifier $sp1 > /dev/null 2>&1
 			detect_collinear_tandem_arrays -g $sp1.gff -b $sp1.blast -c $sp1.collinearity -o $sp1.tandem.collinear > /dev/null 2>&1
@@ -177,6 +177,7 @@ do
 done
 
 wait
+
 			
 echo -e "\nStep 2.2 - Inter-species\n"
 
@@ -191,7 +192,7 @@ do
 			(
 			cat "$sp1"_"$sp2" "$sp2"_"$sp1" > "$sp1"_"$sp2".blast
 			cat ../"$sp1".bed ../"$sp2".bed > "$sp1"_"$sp2".gff
-			echo -e "\tDetecting synteny for $sp1 and $sp2...\n"
+			echo -e "[$(date +%H"h"%M"m"%S"s")]\tDetecting synteny for $sp1 and $sp2...\n"
 			MCScanX	-a -b 2 "$sp1"_"$sp2" -s $ANCHORS -m $GAPS > /dev/null 2>&1
 			
 			cat "$sp1"_"$sp2".blast "$sp1".blast "$sp2".blast > "$sp1"_"$sp2".all.blast
@@ -200,7 +201,7 @@ do
             grep -o -E ","  "$sp1"_"$sp2".tandem.collinear|wc -l > "$sp1"_"$sp2".tandem.collinear.added			
 			)&
 		fi
-	done
+    done
 done
 
 wait
