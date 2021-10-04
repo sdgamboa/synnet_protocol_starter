@@ -16,6 +16,7 @@ Before using this protocol, you must source the `set_profile.sh` file:
 Then, you must go to the `db` directory and decompress the data set files:
 
     cd $db
+    curl https://zenodo.org/record/5546148/files/synnet_dataset.tar.gz?download=1 --output synnet_dataset.tar.gz
     tar -xvzf synnet_dataset.tar.gz
 
 Now you're ready to start working with this example working directory for the 
