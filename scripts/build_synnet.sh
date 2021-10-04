@@ -58,7 +58,7 @@ options_list=()
 while getopts ":k:s:m:p:h" option; do
     case $option in
         k)
-            options_list+=("-p $OPTARG")
+            options_list+=("-k $OPTARG")
             HITS="$OPTARG" ;;
         s)
             options_list+=("-s $OPTARG")

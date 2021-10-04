@@ -1,0 +1,11 @@
+name: SYNNET
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - diamond=0.9.*
+ - cytoscape
+ - git
+ - r-base=4.0.*
+ - r-tidyverse
+ - bioconductor-ggtree
