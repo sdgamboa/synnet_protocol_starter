@@ -142,7 +142,7 @@ for sp1 in ${species_list[@]}
 do
     for sp2 in ${species_list[@]}
     do
-        echo -e "\tRunning homology search $sp1 against $sp2...\n"
+        echo -e "[$(date +%H"h"%M"m"%S"s")]\tRunning homology search $sp1 against $sp2...\n"
         diamond blastp --quiet \
         -q ../$sp1.pep -d ../DiamondDB/$sp2.dmnd -o "$sp1"_"$sp2" -p $CPUS \
         --max-hsps 1 --no-self-hits -k $HITS
