@@ -31,3 +31,20 @@ construction of a SynNet.
 | [files](./files) | Files that are helpful to complete this protocol (homology searches, list of ids, phylogeny, etc). |
 | [scripts](./scripts) | Script files written in bash or R. |
 | [set_profile.sh](./set_profile.sh) | File to be sourced before starting the steps of the protocol. |
+
+
+## Disclaimer
+
+This is a modified version of the workflow
+provided at https://github.com/zhaotao1987/SynNet-Pipeline. Please refer to
+the original version for the latest developments. Be sure to cite the
+original work of the workflow. This information can be found in the same URL
+mentioned above.
+
+The code in this repository is provided as is and therefore comes with no
+warranty. The authors take no responsibility for any loses or inaccuracies.
+
+If you find any errors in the code or typos you're welcome to post an issue.
+
+Please refer to https://link.springer.com/protocol/10.1007/978-1-0716-2429-6_12
+to read the full protocol proposed in this repository.
